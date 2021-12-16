@@ -1,0 +1,116 @@
+html{
+    display: flex;
+    justify-content: center;    
+}
+
+header{
+    width: 700px;
+    background-color: rgb(14, 21, 47);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+body{
+    width: 700px;
+}
+
+.conteneur{
+    display: flex;
+}
+
+.nom{
+    color: white;
+    font-size: 40px;
+}
+
+.actu{
+    color: rgb(175,165,136);
+}
+
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(233, 229, 212);
+}
+
+.profil{
+    width: 150px;
+    padding: 20px;
+}
+
+.icon{
+    width: 50px;
+}
+
+.reseaux {
+    width: 30px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.reseaux:hover {
+    width: 40px;
+    padding-top: 0px;
+}
+
+.lien_logo{
+    text-decoration: none;
+}
+
+.qrcode{
+    width: 75px;
+}
+
+.contenu_categorie {
+    display: flex;
+}
+
+.parcours{
+    background-color: rgb(247, 247, 247);
+}
+
+.text{
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.date_categorie {
+    flex: 1;
+    text-align: right;
+    padding: 6px;
+}
+
+.info_categorie {
+    flex: 6;
+}
+
+@media (max-width: 700px) {
+    header {
+        width: 500px;
+    }
+    body {
+        width: 500px;
+    }
+    .conteneur {
+        flex-direction: column;
+    }
+    .infos {
+        width: 500px;
+        padding: 30px 0px;
+    }
+  }
+
+  
